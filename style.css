@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=IBM+Plex+Sans+Arabic&family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:  #f9e7e7;
+ font-weight: bold;
+
+}
+
+header {
+background-color: #f8bbbb;
+padding: 20px;
+text-align: center;
+font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+h1 {
+color: #fc5858;
+}
+h2{
+    font-family: 'Borel', cursive;
+}
+main {
+padding: 20px;
+}
+
+section {
+margin-bottom: 40px;
+}
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+li:before {
+content: "💗 "; /* Heart emoji before each reason */
+}
+
+footer {
+
+    background-color: #f8bbbb;
+
+text-align: center;
+padding: 10px;
+}
+
+.hourspic{
+    width: 7em;
+    height: 7em;
+    object-fit: cover;
+
+}
+
+a{
+ color: black;
+ font-size: 18px;
+ font-weight: bold;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+
+}
